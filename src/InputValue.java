@@ -8,7 +8,7 @@ public class InputValue {
         Scanner values= new Scanner(System.in);
         System.out.printf("Enter the value of a:");
         a= values.nextInt();
-        System.out.printf("Enter value of b:");
+        System.out.printf("Enter Value of b:");
                 b= values.nextInt();
         if(a==b)
         {
