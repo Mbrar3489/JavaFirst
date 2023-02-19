@@ -23,10 +23,10 @@ public class Calculator {
     }
     public static void main(String[] args) {
         System.out.println("Welcome to Calculator");
-        System.out.println("*********************");
+        System.out.println("**********************");
         System.out.println("Please choose the options:");
         System.out.println("1.Addition \n2.Subtraction \n3.Multiply \n4.Division \n5.Modulus \n6.Exit");
-        System.out.println("*********************");
+        System.out.println("**********************");
         Scanner input = new Scanner(System.in);
         String continue1 ="Y"; String continue2;
         do {
