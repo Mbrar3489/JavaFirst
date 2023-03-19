@@ -7,7 +7,7 @@ public class Calculator {
     }
     public static void subtraction(double num1,double num2){
         double sub=num1-num2;
-        System.out.println("Subtraction is: "+sub);
+        System.out.println("ArithmeticOperations.Subtraction is: "+sub);
     }
     public static void multiply(double num1,double num2){
         double multi=num1*num2;
@@ -15,7 +15,7 @@ public class Calculator {
     }
     public static void division(double num1,double num2){
         double div=num1/num2;
-        System.out.println("Division is: "+div);
+        System.out.println("ArithmeticOperations.Division is: "+div);
     }
     public static void modulus(double num1,double num2){
         double mod=num1%num2;
@@ -25,7 +25,7 @@ public class Calculator {
         System.out.println("Welcome to Calculator");
         System.out.println("**********************");
         System.out.println("Please choose the options:");
-        System.out.println("1.Addition \n2.Subtraction \n3.Multiply \n4.Division \n5.Modulus \n6.Exit");
+        System.out.println("1.ArithmeticOperations.Addition \n2.ArithmeticOperations.Subtraction \n3.ArithmeticOperations.Multiply \n4.ArithmeticOperations.Division \n5.Modulus \n6.Exit");
         System.out.println("**********************");
         Scanner input = new Scanner(System.in);
         String continue1 ="Y"; String continue2;
